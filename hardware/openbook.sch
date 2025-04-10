@@ -2368,7 +2368,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:42976481" deviceset="A3L-LOC" device=""/>
+<part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:42976481" deviceset="A3L-LOC" device="" value="openbook"/>
 <part name="J1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" deviceset="SAMACSYS_PARTS_USB4110-GF-A" device=""/>
 <part name="GND1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" deviceset="GND" device=""/>
 <part name="GND2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" deviceset="GND" device=""/>
@@ -4672,12 +4672,12 @@ Boot / IO Button</text>
 </segment>
 <segment>
 <wire x1="149.86" y1="165.1" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="165.1" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="172.72" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
-<junction x="142.24" y="165.1"/>
 <label x="142.24" y="170.18" size="1.016" layer="95" rot="R90" xref="yes"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="J4" gate="G$1" pin="23"/>
+<wire x1="142.24" y1="165.1" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
+<junction x="142.24" y="165.1"/>
+<wire x1="142.24" y1="165.1" x2="142.24" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PREVGH" class="0">
@@ -4687,13 +4687,14 @@ Boot / IO Button</text>
 <pinref part="D5" gate="G$1" pin="K"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="160.02" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="172.72" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
-<junction x="134.62" y="160.02"/>
+<wire x1="149.86" y1="160.02" x2="137.16" y2="160.02" width="0.1524" layer="91"/>
 <label x="134.62" y="170.18" size="1.016" layer="95" rot="R90" xref="yes"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <pinref part="J4" gate="G$1" pin="21"/>
+<wire x1="137.16" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
+<junction x="137.16" y="160.02"/>
+<wire x1="137.16" y1="160.02" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="170.18" x2="134.62" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GDR" class="0">
