@@ -1264,7 +1264,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="PRICE" value="None" x="26.25" y="-45.07" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=562593&amp;manufacturer=Seiko Instruments&amp;part_name=CPH3225A&amp;search_term=None" x="26.25" y="-45.07" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/CPH3225A/Seiko+Instruments/view-part/?ref=snap" x="26.25" y="-45.07" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="92.439609375" y="-31.859740625" size="1" layer="27"/>
+<attribute name="VALUE" x="92.439609375" y="-31.859740625" size="1" layer="25"/>
 </element>
 <element name="C25" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="EAGLE-LTSPICE_C0402" value="100nF" x="48.48" y="16.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.945" y="15.385" size="1" layer="25"/>
@@ -1331,7 +1331,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="PACKAGE" value="SOT-23-6 STMicroelectronics" x="164.8" y="-125.2" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="164.8" y="-125.2" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=snap" x="164.8" y="-125.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="143.98" y="-25.18" size="1" layer="27" align="center"/>
+<attribute name="VALUE" x="143.98" y="-25.18" size="1" layer="25" align="center"/>
 </element>
 <element name="D10" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="DIOC1608X36N" value="PGB1010603MR" x="35.32" y="-57.98" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="131.84" y="-2.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1396,7 +1396,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="PRICE" value="None" x="164.9" y="-149.1" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="164.9" y="-149.1" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="164.9" y="-149.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="86.26" y="-50.28" size="1" layer="27" align="center"/>
+<attribute name="VALUE" x="86.26" y="-50.28" size="1" layer="25" align="center"/>
 </element>
 <element name="D4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="SOD3716X135N" value="MBR0530" x="77" y="-50.58" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="165.9" y="-147.1" size="1.778" layer="27" display="off"/>
@@ -1404,12 +1404,11 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="165.9" y="-147.1" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="165.9" y="-147.1" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="MBR0530" x="165.9" y="-147.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="71.7" y="-49.08" size="1" layer="25" align="center"/>
+<attribute name="NAME" x="74.4" y="-47.78" size="1" layer="25" align="center"/>
 <attribute name="PACKAGE" value="SOD-123-2 ON Semiconductor" x="165.9" y="-147.1" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="165.9" y="-147.1" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="165.9" y="-147.1" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="165.9" y="-147.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74" y="-47.58" size="1" layer="27" align="center"/>
 </element>
 <element name="D5" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="SOD3716X135N" value="MBR0530" x="86.02" y="-56.77" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="103.8" y="-157.1" size="1.778" layer="27" display="off"/>
@@ -1496,7 +1495,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="MOUSER_PART_NUMBER" value="755-BD5229G-TR" x="126.4" y="-75.3" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD5229G-TR?qs=4kLU8WoGk0vvnhrrYwdszw%3D%3D" x="126.4" y="-75.3" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="39.45" y="16.34" size="1" layer="25" align="center"/>
-<attribute name="VALUE" x="47.65" y="13.14" size="1" layer="27" align="center"/>
+<attribute name="VALUE" x="47.65" y="13.14" size="1" layer="25" align="center"/>
 </element>
 <element name="J1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="SAMACSYS_PARTS_USB4110GFA" value="SAMACSYS_PARTS_USB4110-GF-A" x="161.8808" y="-29.24" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="197.4408" y="12.67" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1520,13 +1519,13 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="-6.6738" y="-75.01" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="-6.6738" y="-75.01" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="-6.6738" y="-75.01" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="2.7762" y="4.255" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="12.7762" y="4.355" size="1" layer="27" rot="R270" align="center"/>
+<attribute name="NAME" x="-1.8238" y="-5.445" size="1" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="12.7762" y="4.355" size="1" layer="25" rot="R270" align="center"/>
 </element>
 <element name="J3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="159.0328" y="-64.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="161.1918" y="-65.837" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-13694" x="219.9928" y="-3.48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="163.5348" y="-68.391" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="163.5348" y="-68.391" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="J4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="FH34SRJ24S05SH99" value="FH34SRJ-24S-0.5SH_99_" x="81.09" y="-68.98" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="161.1" y="-127.4" size="1.778" layer="27" display="off"/>
@@ -1538,13 +1537,13 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="MOUSER_PART_NUMBER" value="798-FH34SRJ24S05SH99" x="161.1" y="-127.4" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH34SRJ-24S-0.5SH99?qs=vcbW%252B4%252BSTIpKBl5ap9J8Fw%3D%3D" x="161.1" y="-127.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="90.09" y="-69.38" size="1" layer="25" align="center"/>
-<attribute name="VALUE" x="81.29" y="-72.08" size="1" layer="27" align="center"/>
+<attribute name="VALUE" x="81.29" y="-72.08" size="1" layer="25" align="center"/>
 </element>
 <element name="L1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="IND_4828-WE-TPC_WRE" value="68uH" x="76.97" y="-55.65" smashed="yes" rot="R270">
 <attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="57.92" y="-105.18" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="744043680" x="57.92" y="-105.18" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR_NAME" value="Wurth Electronics" x="57.92" y="-105.18" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="73.635" y="-54.5788" size="1" layer="27" ratio="6" rot="R90"/>
+<attribute name="NAME" x="73.635" y="-54.5788" size="1" layer="25" ratio="6" rot="R90"/>
 </element>
 <element name="LED1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="ADAFRUIT_CHIP-LED0603" value="" x="113.06" y="-29.45" smashed="yes">
 <attribute name="NAME" x="114.225" y="-30.885" size="1" layer="25"/>
@@ -1792,7 +1791,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="PACKAGE" value="None" x="22.84" y="-3.36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="22.84" y="-3.36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif+Systems/view-part/?ref=snap" x="22.84" y="-3.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-4.6" y="-43.36" size="1" layer="27"/>
+<attribute name="VALUE" x="-4.6" y="-43.36" size="1" layer="25"/>
 </element>
 <element name="U2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="SON50P200X200X80-9N" value="MAX17048G+T10" x="129" y="-23.28" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="179.8" y="-81.7" size="1.778" layer="27" display="off"/>
@@ -1804,7 +1803,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="PRICE" value="None" x="179.8" y="-81.7" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&amp;manufacturer=Analog Devices&amp;part_name=MAX17048G+T10&amp;search_term=None" x="179.8" y="-81.7" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap" x="179.8" y="-81.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="120.69" y="-19.062" size="1" layer="27" align="top-left"/>
+<attribute name="VALUE" x="120.69" y="-19.062" size="1" layer="25" align="top-left"/>
 </element>
 <element name="U3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="SON127P600X800X80-9N" value="W25Q512JVEIQ" x="37.49" y="-26.24" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="104.8" y="-61.8" size="1.778" layer="27" display="off"/>
@@ -1816,7 +1815,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="PACKAGE" value="Package " x="104.8" y="-61.8" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="104.8" y="-61.8" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond+Electronics/view-part/?ref=snap" x="104.8" y="-61.8" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="42.975" y="-34.92" size="1" layer="27" rot="R90" align="top-left"/>
+<attribute name="VALUE" x="42.975" y="-34.92" size="1" layer="25" rot="R90" align="top-left"/>
 </element>
 <element name="U4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.L-M1R32STL6kAumfhKZWqw" package="ESP32_WROVER_SPARKFUN-IC-POWER_SOT23-5" value="ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831" x="116.11" y="-25.81" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.451" y="-28.688" size="1" layer="25" ratio="20"/>
@@ -1842,7 +1841,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="PRICE" value="None" x="39.95" y="-46.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=99048&amp;manufacturer=Analog Devices&amp;part_name=DS3231SN#&amp;search_term=None" x="39.95" y="-46.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/DS3231SN%23/Analog+Devices/view-part/?ref=snap" x="39.95" y="-46.05" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="70.48476875" y="-32.737209375" size="1" layer="27" rot="R90" align="top-left"/>
+<attribute name="VALUE" x="70.48476875" y="-32.737209375" size="1" layer="25" rot="R90" align="top-left"/>
 </element>
 </elements>
 <signals>
