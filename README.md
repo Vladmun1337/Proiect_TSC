@@ -68,6 +68,71 @@ check BOM below. After the PCB was succesfully modelled, a battery and e-paper d
 | W25Q512JVEIQ Flash                      | [Link](https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond+Electronics/view-part/?ref=eda) | [Datasheet](https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond%20Electronics/datasheet/) |
 | XC6220A331MR-G Voltage Regulator                 | [Link](https://componentsearchengine.com/part-view/XC6220A331MR-G/Torex) | [Datasheet](https://product.torexsemi.com/system/files/series/xc6220.pdf) |
 
+## ESP32-C6 Pinout
+
+An overview of how the ESP32-C6 pins are assigned within the system, grouped by function.
+
+### Power
+- **3V3 (Pin 2 & Top Right):** 3.3V supply for ESP32 and peripherals.
+- **GND (Bottom Right):** Common ground.
+
+### Boot and Reset
+- **GPIO8 (Pin 15):** Boot mode selection, pulled low via 10KΩ.
+- **RESET (Pin 3):** Manual reset input.
+
+### SPI (E-Paper Display, SD Card, Flash)
+- **MISO (Pin 27)**
+- **MOSI (Pin 10)**
+- **SCK (Pin 7)**
+- **SS_SD (Pin 4):** Chip Select for SD card or other SPI device.
+- **EPD_CS (Pin 11):** Chip Select for E-Paper Display.
+- **FLASH_CS (Pin 12):** Chip Select for NOR Flash.
+
+### E-Paper Display Control
+- **EPD_BUSY (Pin 26)**
+- **EPD_DC (Pin 5)**
+- **EPD_RST (Pin 21)**
+- **EPD_3V3_C (Pin 19):** Likely power enable/control.
+
+### I2C (RTC & Sensors)
+- **SDA (Pin 20)**
+- **SCL (Pin 21)**
+- **I2C_PW (Pin 18):** Power enable for I2C devices.
+- **INT_RTC (Pin 8):** RTC interrupt.
+- **RTC_RST (Pin 16)**
+
+### USB
+- **USB_D- (Pin 13)**
+- **USB_D+ (Pin 14)**
+
+### UART
+- **TX (Pin 25)**
+- **RX (Pin 24)**
+
+### Other GPIO
+- **IO_CHANGE (Pin 23):** Interrupt or status input/output.
+
+
+## Total Power Consumption Overview
+
+In a typical operating scenario—where the ESP32-C6 remains active with Wi-Fi enabled, the e-paper display refreshes every 10 seconds, and the BME688 sensor continuously collects environmental data—the estimated current draw for the system is as follows:
+
+| Component                          | Estimated Consumption (mA) |
+|-----------------------------------|-----------------------------|
+| ESP32-C6 (Wi-Fi enabled)          | 200 mA                      |
+| E-Paper Display (during update)   | 40 mA                       |
+| BME688 Sensor (continuous use)    | 2 mA                        |
+| Real-Time Clock (RTC) Module      | 2 mA                        |
+| SD Card (active use)              | 12 mA                       |
+| External NOR Flash Memory         | 25 mA                       |
+
+### Typical Total Current Draw
+
+**Total: 281 mA**
+
+This estimate represents a high-activity configuration. In lower-power modes (e.g., sleep or deep sleep), consumption can be significantly reduced.
+
+
 ## Conclusions
 
 This project was very exciting for me. A lot of difficulties came from me having little to no prior experience with the autodesk suite, but everything sorted
